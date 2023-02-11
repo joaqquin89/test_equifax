@@ -1,0 +1,16 @@
+subnet_pods     = "us-central1-01-gke-01-pods"
+subnet_service  = "us-central1-01-gke-01-services"
+sub_network     = "us-central1-01"
+network         = "vpc-01"
+node_zones      = ["us-central1-a"]
+main_zone       = "us-central1-a"
+service_account = "terraform-deployment@terratest-377320.iam.gserviceaccount.com"
+region          = "us-central1"
+sql_instance_size = "db-f1-micro"
+sql_disk_type = "PD_SSD"
+sql_disk_size = "10"
+sql_master_zone = "a"
+sql_replica_zone = "b"
+sql_connect_retry_interval = 60
+sql_user = "admin"
+sql_pass = "testin1234"
